@@ -1,0 +1,36 @@
+.DS_Store
+*.class
+*.log
+
+target/
+boot/
+
+# SBT specific
+.cache
+.history
+.lib/
+dist/*
+/**/target/
+lib_managed/
+src_managed/
+project/.boot/
+project/.ivy/
+project/.sbtboot/
+project/plugins/project/
+project/project/
+
+# IntelliJ IDE specific
+.idea
+*.iml
+
+# mpeltonen/sbt-idea plugin specific
+.idea_modules
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+projectFilesBackup*
+
+#ensime
+.ensime
+.ensime_cache
